@@ -2,6 +2,7 @@ import React from 'react'
 import TicTacTok from './components/TicTacTok'
 import LoginPage from './components/LoginPage'
 import ChatGpt from './components/ChatGpt'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
@@ -9,7 +10,8 @@ const App = () => {
     <div>
         {/* <TicTacTok /> */}
         {/* <LoginPage /> */}
-        <ChatGpt />
+        {/* <ChatGpt /> */}
+        <Navbar />
     </div>
   )
 }

@@ -87,7 +87,7 @@ function App() {
       setIsFinished(true);
       return;
     }
-    setCurrentQuestion(prev => prev + 1);
+    setCurrentQuestion(prev => prev + 1); 
     setSelectedAnswer(null);
     setShowResults(false);
   };
